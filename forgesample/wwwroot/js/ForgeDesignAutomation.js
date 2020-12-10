@@ -120,6 +120,7 @@ function startWorkitem() {
         formData.append('data', JSON.stringify({
             width: $('#width').val(),
             height: $('#height').val(),
+            lenght: $('#lenght').val(),
             activityName: $('#activity').val(),
             browerConnectionId: connectionId
         }));
